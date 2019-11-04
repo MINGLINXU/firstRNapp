@@ -2,9 +2,9 @@ console.log("Hello, World")
 console.log("Hello, Node.js!")
 
 // Exercise #1
-let price = 48.90
+let price = 200
 let discount = 20
-const total = 48.90 - 20
+const total = price-discount
 if( total > 85){
     console.log("Free Shipping")
 }
@@ -13,16 +13,11 @@ else{
 }
 
 //Exercise #2
-let count = 10
-if(count > 0) {
-    for (let i = 0; i < count; i+0) {
+
+    for (let count=10 ; count>0 ; count =count-1) {
         console.log("Juggle " + count)
-        count =count-1
     }
-}
-else{
-    console.log("The count is "+count)
-}
+
 
 //Exercise #3
 var circleRadius = 8
