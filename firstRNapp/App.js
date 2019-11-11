@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log('I am a console statement');
+  console.log('Welcome to C308 Lesson 04 quiz!');
+  console.log('Your component here');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,6 +41,12 @@ const App: () => React$Node = () => {
             </View>
           )}
           <View style={styles.body}>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>
+                <Text>Set a time you would like us to arrive at your pickup lication</Text></Text>
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
+            </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Recommendd Eats @ RP</Text>
               <Text>Welcome to C308 Web Frameworks!</Text>
